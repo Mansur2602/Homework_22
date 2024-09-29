@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Система Заметок</title>
+    <style>
+        .note {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .note-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Система Заметок</h1>
+    <input type="text" class="note-title" placeholder="Заголовок заметки" />
+    <textarea class="note-content" placeholder="Содержимое заметки"></textarea>
+    <button class="add-note-btn">Добавить заметку</button>
+    <button class="delete-all-btn">Удалить все заметки</button>
+
+    <div class="note-container"></div>
+
+    <script src="./task_1.js"></script>
+</body>
+</html>
+
